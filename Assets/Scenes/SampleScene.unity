@@ -292,7 +292,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Om jag kan l\xE4sa det h\xE4r borde jag bjuda Squatbar p\xE5 Zubr"
+  m_Text: "Om jag kan l\xE4sa det h\xE4r borde jag bjuda Squatbar p\xE5 m\xE5nga
+    Zubr"
 --- !u!222 &604361202
 CanvasRenderer:
   m_ObjectHideFlags: 0
