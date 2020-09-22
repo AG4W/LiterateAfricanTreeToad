@@ -21,9 +21,9 @@ img{
     /* width: 40%; */
 }
 
-.hide{
+.hide-section1{
     display: none;
-}
+} 
 
 .link-to-game{ 
     text-align: center;
@@ -35,4 +35,9 @@ img{
     text-align: center;
     font-size: 24px;
     font: 'Times New Roman';
+}
+
+.section1{
+    position: absolute;
+    left:80px; top:5px;
 }
