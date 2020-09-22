@@ -10,8 +10,8 @@ h1{
 }
 
 p{
-    text-align: center;
-    font-size: 50px;
+    text-align: left;
+    font-size: 45px;
 }
 
 img{
@@ -21,9 +21,30 @@ img{
     /* width: 40%; */
 }
 
-.hide-section1{
+.hide-sections{
     display: none;
-} 
+}
+
+.fl-info{
+    text-align: left;
+    position: absolute;
+    left:80px; top:5px;
+}
+
+.pl-info{
+    position: absolute;
+    right:80px; top:5px;
+}
+
+.ol-info{
+    position: absolute;
+    left:80px; bottom:5px;
+}
+
+.tl-info{
+    position: absolute;
+    right:80px; bottom:5px;
+}
 
 .link-to-game{ 
     text-align: center;
@@ -37,7 +58,3 @@ img{
     font: 'Times New Roman';
 }
 
-.section1{
-    position: absolute;
-    left:80px; top:5px;
-}
