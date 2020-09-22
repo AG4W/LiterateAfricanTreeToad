@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/public/styles/style.css" rel="stylesheet">
+
+    <title>Brain Hour</title>
+</head>
+<body>
+    <header>
+        <h1>The human brain</h1>
+    </header>
+    <div class="container">
+        <div class="image-container">
+            <img src="/public/images/brain_front_image.png" alt="Picture of the human brain" usemap="#image-map">
+
+            <map name="image-map">
+                <area target="" alt="Frontal lobe" onclick="show_hide()" title="Frontal lobe" href="" coords="269,364,182,371,139,327,129,256,203,164,305,106,424,95,426,115,404,134,384,150,381,165,358,179,350,232,338,253,344,264,291,310,270,329,264,346" shape="poly">
+                <area target="" alt="Parietal lobe" title="Parietal lobe" href="" coords="346,262,341,251,354,230,358,175,386,164,387,145,408,139,414,129,426,118,429,103,462,115,532,140,576,181,592,212,534,274,436,240,400,250" shape="poly">
+                <area target="" alt="Occipital lobe" title="Occipital lobe" href="" coords="590,216,616,266,621,330,603,373,558,352,554,301,535,272,566,238" shape="poly">
+                <area target="" alt="Temporal lobe" title="Temporal lobe" href="" coords="272,326,345,265,394,251,414,249,429,244,454,247,537,277,555,301,556,347,582,365,599,374,586,384,538,384,454,389,394,401,368,411,329,413,297,405,273,383,267,348" shape="poly">
+                <area target="" alt="Cerebellum" title="Cerebellum" href="" coords="557,390,426,393,383,409,389,427,409,458,439,474,473,473,517,463,550,447,565,412" shape="poly">
+                <area target="" alt="Spinal cord" title="Spinal cord" href="" coords="378,414,385,431,399,443,403,458,427,474,439,506,425,515,402,514,387,461,372,443,344,428,335,419" shape="poly">
+            </map>
+            </div>
+        </div>
+        <div id="information-container">
+            <div id="section01" class="hide-section1">
+                <p>
+                    <textarea name="frontal-lobe" rows="4" cols="50">
+                        The frontal lobe is the largest of the four major lobes in the brain.
+                    </textarea> 
+                    <img src="/public/images/Frontal_lobe_animation.gif" alt="This is an animated gif image showing the frontal lobe." width="200" height="200">
+                </p>
+            </div>
+            <!--<div id="section2">
+                <p>
+                    <textarea name="parietal-lobe" rows="4" cols="50">
+                        The pariental lobe is not the largest of the four major lobes in the brain.
+                    </textarea> 
+                    <img src="/public/images/Temporal_lobe_animation.gif" alt="This is an animated gif image showing the frontal lobe." width="200" height="200">
+                </p>
+            </div> -->
+
+        <div class="link-to-game">
+            <a href="/public/pages/minigame.html">Test your knowledge of the brain here!</a>
+        </div>
+    </div>
+
+    <script src="/public/scripts/showhideelements.js"></script>
+</body>
+</html>
