@@ -9,6 +9,13 @@ h1{
     font: 'Times New Roman'; /* We need better font @kezze */
 }
 
+h2{
+    color: black;
+    text-align: center;
+    font-size: 36;
+    font: 'Times New Roman';
+}
+
 p{
     text-align: left;
     font-size: 45px;
@@ -21,14 +28,99 @@ img{
     /* width: 40%; */
 }
 
-.hide-sections{
-    display: none;
+.frontallobeimage{
+    background-color: #fff;
+    border: 1px solid #c8ccd1;
+    border-top-color: rgb(200, 204, 209);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(200, 204, 209);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(200, 204, 209);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(200, 204, 209);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
 }
+
+.occipitallobeimage{
+    background-color: #fff;
+    border: 1px solid #c8ccd1;
+    border-top-color: rgb(200, 204, 209);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(200, 204, 209);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(200, 204, 209);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(200, 204, 209);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial; 
+}
+
+.parietallobeimage{
+    background-color: #fff;
+    border: 1px solid #c8ccd1;
+    border-top-color: rgb(200, 204, 209);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(200, 204, 209);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(200, 204, 209);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(200, 204, 209);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+.temporallobeimage{
+    background-color: #fff;
+    border: 1px solid #c8ccd1;
+    border-top-color: rgb(200, 204, 209);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(200, 204, 209);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(200, 204, 209);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(200, 204, 209);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
 
 .fl-info{
     text-align: left;
-    position: absolute;
-    left:80px; top:5px;
+    /*position: absolute; */
+    /*left:80px; top:5px; */
 }
 
 .pl-info{

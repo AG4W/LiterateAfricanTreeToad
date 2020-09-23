@@ -1,3 +1,5 @@
+/*
+
 const fl = document.getElementById('fl');
 const flinfo = document.getElementById('fl-info');
 
@@ -41,3 +43,5 @@ tl.addEventListener("click", (evt) => {
     olinfo.style.display = 'none';
 
 });
+
+*/
