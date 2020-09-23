@@ -138,10 +138,20 @@ img{
     right:80px; bottom:5px;
 }
 
+#informationtext{
+    font-size: 20px;
+    font: 'Times new Roman';
+}
+
 #game{ 
     text-align: center;
     font-size: 24px;
     font: 'Times New Roman';
+}
+#gameB{
+   
+    width: 200px;
+    border-radius: 8px;
 }
 
 a:link {
