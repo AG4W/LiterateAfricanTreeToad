@@ -30,8 +30,8 @@ img{
     margin-right: auto;
     
 }
-.middle { 
-    vertical-align: middle; 
+#brain{
+    display: inline-block;
 }
 
 .back-to-home{
