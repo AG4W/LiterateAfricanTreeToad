@@ -144,6 +144,22 @@ img{
     font: 'Times New Roman';
 }
 
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
 #back-to-home{
     text-align: center;
     font-size: 24px;
