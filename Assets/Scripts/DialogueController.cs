@@ -7,6 +7,11 @@ using UnityEngine.SceneManagement;
 
 public class DialogueController : MonoBehaviour
 {
+    [SerializeField]AudioSource sfx;
+    [SerializeField]AudioClip correct;
+    [SerializeField]AudioClip incorrect;
+    [SerializeField]AudioClip tick;
+
     [SerializeField]Transform brainRoot;
 
     [SerializeField]Transform answerList;
@@ -50,7 +55,10 @@ public class DialogueController : MonoBehaviour
             ButtonPointerHandler bph = g.transform.GetComponentInChildren<ButtonPointerHandler>();
 
             g.transform.Find("Text").GetComponentInChildren<Text>().text = available[i].name;
-            bph.OnEnter += (ButtonPointerHandler h) => mph.OnEnter();
+            bph.OnEnter += (ButtonPointerHandler h) => {
+                sfx.PlayOneShot(tick);
+                mph.OnEnter();
+            };
             bph.OnClick += (ButtonPointerHandler h) => {
                 mph.OnExit();
                 OnClick(option, bph);
@@ -65,6 +73,9 @@ public class DialogueController : MonoBehaviour
     IEnumerator FeedbackWaitTimer(DialogueOption option, ButtonPointerHandler handler)
     {
         handler.OnAnswerFeedbackStart(option.CorrectBrainPart == current.CorrectBrainPart);
+
+        sfx.clip = option.CorrectBrainPart == current.CorrectBrainPart ? correct : incorrect;
+        sfx.Play();
 
         yield return new WaitForSeconds(1f);
 
