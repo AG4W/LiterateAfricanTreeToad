@@ -13,4 +13,11 @@ MonoBehaviour:
   m_Name: Frontal Lobe
   m_EditorClassIdentifier: 
   correctBrainPart: {fileID: 6359741621025809032, guid: 2de0e91ea0a6ed54f8edb4d90f48c831, type: 3}
-  description: "Vilken del av hj\xE4rnan \xE4r st\xF6rst?"
+  description: "\u2022    Largest of the four major lobes.\r\n\u2022    Located in
+    the front of each hemisphere\r\n\u2022    Separated by a groove between tissues
+    called sulcus.\r\n\u2022    Can be further divided into the frontal cortex which
+    includes the premotor cortex and the primary motor cortex.\r\n\u2022    The front
+    of the frontal lobe is called the prefrontal cortex.\r\n\u2022    Function: the
+    frontal cortex can be considered the \u201Caction cortex\u201D and is responsible
+    for action of one kind, be it skeletal movement, speech control, emotion regulation
+    etc. In humans, the prefrontal cortex is responsible for reasoning."
