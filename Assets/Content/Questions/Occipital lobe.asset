@@ -10,7 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fccb0ce6dbb7fcd41be9b39fbcbfbd16, type: 3}
-  m_Name: Del B
+  m_Name: Occipital lobe
   m_EditorClassIdentifier: 
   correctBrainPart: {fileID: 541179603142966434, guid: 4297c9a39f4c8554fabe7430e40573b2, type: 3}
-  description: Beskrivning B
+  description: "\u2022    One of the four major lobes in the human brain that mainly
+    handles visual impressions and processes by helping to process information from
+    the eye so that we can understand what we see. The occipital lobe is located
+    in the rearmost portion of the skull. \r\n\u2022    Damage to the occipital lobe
+    can cause partial or complete blindness."
