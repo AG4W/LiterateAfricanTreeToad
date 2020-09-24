@@ -144,3 +144,47 @@ a:link {
     border-image-outset: initial;
     border-image-repeat: initial;
 }
+
+.cerebellumlimage {
+    background-color: #fff;
+    border: 1px solid #c8ccd1;
+    border-top-color: rgb(200, 204, 209);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(200, 204, 209);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(200, 204, 209);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(200, 204, 209);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+.spinalcordlimage{
+    background-color: #fff;
+    border: 1px solid #c8ccd1;
+    border-top-color: rgb(200, 204, 209);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(200, 204, 209);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(200, 204, 209);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(200, 204, 209);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
