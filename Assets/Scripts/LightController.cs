@@ -7,12 +7,21 @@ public class LightController : MonoBehaviour
     float flickerLength = .1f;
     float flickerTimer = 0f;
     
-    Light current;
+    float[] targetIntensities;
+    float[] originalIntensities;
+
+    int index;
 
     void Start()
     {
-        current = lights[Random.Range(0, lights.Length)];
-        current.gameObject.SetActive(false);
+        targetIntensities = new float[lights.Length];
+        originalIntensities = new float[lights.Length];
+
+        for (int i = 0; i < targetIntensities.Length; i++)
+        {
+            targetIntensities[i] = lights[i].intensity;
+            originalIntensities[i] = lights[i].intensity;
+        }
 
         flickerLength = Random.Range(.05f, .2f);
         flickerTimer = 0f;
@@ -23,13 +32,15 @@ public class LightController : MonoBehaviour
 
         if (flickerTimer >= flickerLength)
         {
-            current.gameObject.SetActive(true);
-            current = lights[Random.Range(0, lights.Length)];
+            index = Random.Range(0, lights.Length);
 
             flickerLength = Random.Range(.05f, .2f);
             flickerTimer = 0f;
 
-            current.gameObject.SetActive(false);
+            targetIntensities[index] = (Random.Range(0, 1 + 1) == 0) ? 1f : originalIntensities[index];
         }
+
+        for (int i = 0; i < lights.Length; i++)
+            lights[i].intensity = Mathf.Lerp(lights[i].intensity, targetIntensities[i], Time.deltaTime * 5f);
     }
 }

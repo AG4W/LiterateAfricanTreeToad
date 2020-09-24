@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 
@@ -46,32 +47,29 @@ public class DialogueController : MonoBehaviour
             GameObject g = Instantiate(buttonPrefab, answerList);
             GameObject p = Instantiate(option.CorrectBrainPart, brainRoot);
             MeshPointerHandler mph = p.GetComponentInChildren<MeshPointerHandler>();
+            ButtonPointerHandler bph = g.transform.GetComponentInChildren<ButtonPointerHandler>();
 
             g.transform.Find("Text").GetComponentInChildren<Text>().text = available[i].name;
-            g.transform.GetComponentInChildren<ButtonPointerHandler>().OnEnter += (ButtonPointerHandler h) => mph.OnEnter();
-            g.transform.GetComponentInChildren<ButtonPointerHandler>().OnClick += (ButtonPointerHandler h) => {
+            bph.OnEnter += (ButtonPointerHandler h) => mph.OnEnter();
+            bph.OnClick += (ButtonPointerHandler h) => {
                 mph.OnExit();
-                OnClick(option);
+                OnClick(option, bph);
             };
-            g.transform.GetComponentInChildren<ButtonPointerHandler>().OnExit += (ButtonPointerHandler h) => mph.OnExit();
+            bph.OnExit += (ButtonPointerHandler h) => mph.OnExit();
         }
 
         blurb.text = current.Description;
     }
-    void OnClick(DialogueOption option)
+    void OnClick(DialogueOption option, ButtonPointerHandler handler) => this.StartCoroutine(FeedbackWaitTimer(option, handler));
+
+    IEnumerator FeedbackWaitTimer(DialogueOption option, ButtonPointerHandler handler)
     {
-        Debug.Log("on click");
+        handler.OnAnswerFeedbackStart(option.CorrectBrainPart == current.CorrectBrainPart);
+
+        yield return new WaitForSeconds(1f);
 
         if (option.CorrectBrainPart == current.CorrectBrainPart)
-        {
-            Debug.Log("correct");
-
             available.Remove(current);
-        }
-        else
-        {
-            Debug.Log("wrong");
-        }
 
         if (available.Count > 0)
             SetupNewQuestion();
