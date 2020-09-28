@@ -1,4 +1,4 @@
-/* Skriven av Keziah Ferreia Dos Santos (kefe3770) och fått hjälp av Markus Bergstöm genom brainstorm och guida på vad som funkar bäst */
+/* Skriven av Keziah Ferreia Dos Santos (kefe3770)*/
 body{
     background-color: black;
     color:white;
@@ -32,7 +32,6 @@ img{
     
 }
 
-
 .back-to-home{
 
     text-align: center;
@@ -40,22 +39,26 @@ img{
     color:white;
     padding: 100px
 }
+
 a:link {
     color: green;
     background-color: transparent;
     text-decoration: none;
-  }
-  a:visited {
+}
+
+a:visited {
     color: white;
     background-color: transparent;
     text-decoration: none;
-  }
-  a:hover {
+}
+
+a:hover {
     color: red;
     background-color: transparent;
     text-decoration: underline;
-  }
+}
 
+/* Taget ifrån style.css som Markus Bergstöm har skrivitr*/
 .frontallobeimage{
     background-color: #fff;
     border: 1px solid #c8ccd1;

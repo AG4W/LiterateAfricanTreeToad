@@ -1,8 +1,7 @@
-/* Skriven av Markus Bergström och fått hjälp av Keziah Ferreira Dos Santos genom brainstorming och guida på vad som funkar bäst */
 body{
     background-color: white;
 }
-
+/*Skriven av Keziah Ferreira Dos Santos*/
 h1{
     color: black;
     text-align: center;
@@ -22,7 +21,7 @@ h2{
     font-size: 18px;
     
 }
-
+/*Skriven av Keziah Ferreira Dos Santos*/
 img{
     display: block;
     margin-left: auto;
@@ -149,13 +148,8 @@ img{
     font-size: 24px;
     font: 'Times New Roman';
 }
-#gameB{
-   
-    width: 200px;
-    border-radius: 8px;
-    opacity: 0.8;
-}
 
+/*Skriven av Keziah Ferreira Dos Santos*/
 a:link {
     color: green;
     background-color: transparent;
