@@ -1,3 +1,4 @@
+/* Skriven av Keziah Ferreia Dos Santos (kefe3770) och fått hjälp av Markus Bergstöm genom brainstorm och guida på vad som funkar bäst */
 body{
     background-color: black;
     color:white;
@@ -30,9 +31,7 @@ img{
     margin-right: auto;
     
 }
-#brain{
-    display: inline-block;
-}
+
 
 .back-to-home{
 
