@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fccb0ce6dbb7fcd41be9b39fbcbfbd16, type: 3}
+  m_Name: Spinal Cord
+  m_EditorClassIdentifier: 
+  correctBrainPart: {fileID: 3491513250361740434, guid: 4a0e734ae9c4ac34b964892f4b246dc0, type: 3}
+  description: "The main function is in the transmission of nerve signals from the
+    motor cortex to the brain.\r\n\nIt is the center for coordinating many of our
+    reflexes and responsible for controlling motor instructions for\r rhytmic movements
+    such as walking."
+  correctAnswer: 5

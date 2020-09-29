@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fccb0ce6dbb7fcd41be9b39fbcbfbd16, type: 3}
+  m_Name: Temporal Lobe
+  m_EditorClassIdentifier: 
+  correctBrainPart: {fileID: 9200918175420309753, guid: 9f316cae7d6d7ff4da97543a4b349e72, type: 3}
+  description: "The lobe is one of the four major lobes in the human brain. \n\nIt
+    is located beneath the frontal lobe and the parietal lobe. \n\nThe lobe is also
+    involved in the processing of sensory input and is largely responsible for creating
+    and perserving both consious and long-term memory.\r\n\nAnother of its important
+    task is to handle both visual and sound processing that is crucial for both language
+    recognition and object recognition."
+  correctAnswer: 3

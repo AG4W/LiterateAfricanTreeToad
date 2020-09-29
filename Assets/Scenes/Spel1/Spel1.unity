@@ -1784,9 +1784,32 @@ MonoBehaviour:
   buttonPrefab: {fileID: 3648433999058156262, guid: 828542fe06cd7694e8a41b11c90fa746, type: 3}
   blurb: {fileID: 2071391123}
   questions:
+  - {fileID: 11400000, guid: d190187ea90602a489ed6e081fe2c1b8, type: 2}
   - {fileID: 11400000, guid: 59b76d3ce9206cf4d96164d92ef3583e, type: 2}
   - {fileID: 11400000, guid: d4b0b5e3c8ba4ea4b8a718f4fc4cc4a1, type: 2}
   - {fileID: 11400000, guid: 38dda3fd16611274e82ff1c49f0b9caa, type: 2}
+  - {fileID: 11400000, guid: 8ecf232a068939a4783f8490f9bc6a67, type: 2}
+  - {fileID: 11400000, guid: 7de803acd65bba14e843186c338865ec, type: 2}
+  factoids:
+  - Did you know that the largest brain of any animal is that of the sperm whale.
+    It weighs about 20 pounds!
+  - Did you know that your brain uses 20 percent of the oxygen and blood in your
+    body!
+  - "Did you know that you can\u2019t hear phone conversations in noisy rooms \u2013
+    The brain can\u2019t distinguish background noise from the voice on the phone!"
+  - Did you know that your brain isn't fully formed until age 25!
+  - Did you know that the human brain can generate about 23 watts of power (enough
+    to power a lightbulb)!
+  - Did you know that when you find yourself sleeping in a new environment for the
+    first time, the brain processes danger and remains half-awake in order to be
+    more aware!
+  - "Did you know that the harder you think, the more oxygen and fuel your brain
+    will use from your blood \u2013 up to 50 percent!"
+  - Did you know that every time you recall a memory or have a new thought, you create
+    a connection in the brain!
+  - "Did you know that the size doesn\u2019t matter in the brain. There is no evidence
+    that a larger brain is smarter than a smaller brain!"
+  - Did you know that the brain of Albert Einstein was stolen for scientific research!
 --- !u!1 &1219775874
 GameObject:
   m_ObjectHideFlags: 0

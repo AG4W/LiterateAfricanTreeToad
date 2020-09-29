@@ -33,10 +33,12 @@ public class PopupController : MonoBehaviour
         this.acceptHandler.OnClick += (ButtonPointerHandler h) => onAccept();
         this.acceptHandler.OnClick += (ButtonPointerHandler h) => Close();
         this.accept.text = accept;
+        this.acceptHandler.gameObject.SetActive(onAccept != null);
 
         this.declineHandler.OnClick += (ButtonPointerHandler h) => onDecline();
         this.declineHandler.OnClick += (ButtonPointerHandler h) => Close();
         this.decline.text = decline;
+        this.declineHandler.gameObject.SetActive(onDecline != null);
 
         this.window.SetActive(true);
     }
