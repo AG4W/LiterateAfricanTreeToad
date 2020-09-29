@@ -1,3 +1,4 @@
+/* Skriven av Keziah Ferreia Dos Santos (kefe3770)*/
 body{
     background-color: black;
     color:white;
@@ -30,9 +31,6 @@ img{
     margin-right: auto;
     
 }
-#brain{
-    display: inline-block;
-}
 
 .back-to-home{
 
@@ -41,22 +39,26 @@ img{
     color:white;
     padding: 100px
 }
+
 a:link {
     color: green;
     background-color: transparent;
     text-decoration: none;
-  }
-  a:visited {
+}
+
+a:visited {
     color: white;
     background-color: transparent;
     text-decoration: none;
-  }
-  a:hover {
+}
+
+a:hover {
     color: red;
     background-color: transparent;
     text-decoration: underline;
-  }
+}
 
+/* Taget ifrån style.css som Markus Bergstöm har skrivitr*/
 .frontallobeimage{
     background-color: #fff;
     border: 1px solid #c8ccd1;
