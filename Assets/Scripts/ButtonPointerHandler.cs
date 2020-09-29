@@ -60,6 +60,8 @@ public class ButtonPointerHandler : MonoBehaviour, IPointerEnterHandler, IPointe
         }
     }
 
+    public void ClearClickListeners() => OnClick = null;
+
     public void OnAnswerFeedbackStart(bool isCorrect)
     {
         gradient.SetActive(true);

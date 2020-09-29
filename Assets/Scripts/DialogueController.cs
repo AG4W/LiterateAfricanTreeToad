@@ -85,6 +85,13 @@ public class DialogueController : MonoBehaviour
         if (available.Count > 0)
             SetupNewQuestion();
         else
-            SceneManager.LoadScene("SampleScene");
+            PopupController.GetInstance.Open(
+                "Wow! Du svarade rätt på alla delar!\n\n" +
+                "Du kan mycket om hjärnans delar nu, men kan du verkligen allt om hjärnan?\n\n" +
+                "Vill du testa dina kunskaper ytterligare eller starta om det förra spelet?",
+                "Testa mer!", 
+                () => SceneManager.LoadScene("Spel2"), 
+                "Starta om!", 
+                () => SceneManager.LoadScene("Spel1"));
     }
 }
