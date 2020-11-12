@@ -1,5 +1,10 @@
 ﻿using UnityEngine;
 
+/// <summary>
+/// Simpel klass som roterar objektet 'den sitter på'
+/// Används i vårt fall för att rotera hjärnobjektet
+/// Axel Gustafsson, axgu8924
+/// </summary>
 public class Rotator : MonoBehaviour
 {
     [SerializeField]float speed;

@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
 
+/// <summary>
+/// Klass som används för att definiera en fråga associerat med en modell och ett korrekt svar
+/// </summary>
 [CreateAssetMenu(menuName = "Assets/Question")]
 public class DialogueOption : ScriptableObject
 {
@@ -14,6 +17,9 @@ public class DialogueOption : ScriptableObject
     public BrainPart CorrectAnswer => correctAnswer;
 }
 
+/// <summary>
+/// Enum som används som svar
+/// </summary>
 public enum BrainPart
 {
     TheFrontalLobe,

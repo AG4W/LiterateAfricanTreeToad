@@ -1,5 +1,9 @@
 ﻿using UnityEngine;
 
+/// <summary>
+/// Redudant klass som aldrig används
+/// Axel Gustafsson, axgu8924
+/// </summary>
 public class DialogueTrigger : MonoBehaviour
 {
     [SerializeField]Material corrrectAnswerMaterial;
